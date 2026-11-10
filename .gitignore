@@ -1,0 +1,56 @@
+
+# ==========================================
+# LARAVEL BACKEND
+# ==========================================
+
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+backend/vendor/
+backend/database/*.sqlite
+backend/bootstrap/cache/*
+!backend/bootstrap/cache/.gitignore
+
+backend/storage/*.key
+backend/storage/logs/*
+backend/storage/framework/cache/*
+backend/storage/framework/sessions/*
+backend/storage/framework/views/*
+backend/storage/framework/testing/*
+backend/storage/app/private/*
+backend/storage/app/public/*
+
+# ==========================================
+# FLUTTER FRONTEND
+# ==========================================
+
+frontend/.dart_tool/
+frontend/build/
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+frontend/.packages/
+frontend/.pub-cache/
+
+# IDE files
+frontend/.idea/
+frontend/*.iml
+frontend/android/*.iml
+
+# Local Android configuration
+frontend/android/local.properties
+
+# Generated Flutter files
+frontend/ios/Flutter/Generated.xcconfig
+frontend/ios/Flutter/ephemeral/
+frontend/ios/Flutter/flutter_export_environment.sh
+frontend/ios/Runner/GeneratedPluginRegistrant.*
+frontend/macos/Flutter/ephemeral/
+
+# ==========================================
+# GENERAL
+# ==========================================
+
+.DS_Store
+Thumbs.db
+*.log
